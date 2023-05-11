@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+}
+
+
+#title{
+    font-size: xx-large;
+}
+
+.descriptions {
+    background-color: bisque;
+    border-style: inset;
+    align-content: normal;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
+}
+
+.img {
+    width: 720px;
+    height: 480px;
+    margin-left: 390px;
+    margin-right: 390px;
+    
+    
+}
+
+.titles{
+    color: darkred ;
+    font-style: oblique;
+    text-align: center;
+    
+}
+
+#moreInfo {
+    text-align: left;
+    font-size: smaller;
+}
+
+.AddInfo {
+    font-size: smaller;
+}
