@@ -40,3 +40,15 @@ body {
 .AddInfo {
     font-size: smaller;
 }
+
+#dataPers {
+
+    color: darkred ;
+    font-style: oblique;
+}
+
+#dataMasc {
+
+    color: darkred ;
+    font-style: oblique;
+}

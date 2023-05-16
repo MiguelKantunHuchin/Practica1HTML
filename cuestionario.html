@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de adopción</title>
+    <link href="./Assets/Styles/Style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1 class="titles">Formulario de adopción</h1>
+    <form>
+        <h2 id="dataPers">Datos personales</h2>
+        <label>Nombre(s)</label>
+        <input type="text" class="inputs" required><br>
+        <label>Apellido Paterno</label>
+        <input type="text" required><br>
+        <label>Apellido materno</label>
+        <input type="text"><br>
+        <label>Teléfono</label>
+        <input type="text" placeholder="00-00-00-00-00" required><br>
+        <label>Email</label>
+        <input type="email" required placeholder="ejemplo@email.com"><br>
+        <p>¿El adoptante es mayor de edad?</p>
+        <label>Sí</label>
+        <input type="radio" required>
+        <label>No</label>
+        <input type="radio"><br>
+        <p>Si un menor de edad quiere adoptar, necesitamos que el tutor haga el proceso</p>
+        <label>Ingresa tu edad / edad del tutor</label>
+        <input type="number" min="18" max="99" required><br>
+        <label>Por favor, adjunta una imagen de tu INE (jpg o png)</label>
+        <input type="file" accept=".jpg, .png" size="5000" required><br>
+        <h2 id="dataMasc">Datos de la mascota</h2>
+        <label>Por favor, selecciona qué mascota es de tu interés</label>
+        <select required>
+            <option value="cuyo">Jorge el cuyito</option>
+            <option value="perros">Gregorio y su carnalito</option>
+            <option value="tortuga">Mordelon</option>
+            <option value="huron">Max</option>
+            <option value="gato">El pana Miguel</option>
+        </select><br>
+        <p>¿Desea conservar el nombre o cambiarlo?</p><br>
+        <label>Conservarlo</label>
+        <input type="radio">
+        <label>Cambiarlo</label>
+        <input type="radio"><br>
+        <label>Seleccione el nuevo nombre en caso de cambiarlo</label>
+        <input type="text"><br>
+        <p>Seleccione las que aplique</p>
+        <label>Tengo el hábitad correcto para la mascota</label>
+        <input type="checkbox"><br>
+        <label>Conozco los cuidados básicos de la mascota</label>
+        <input type="checkbox"><br>
+        <label>Cuento con un veterinario para la mascota</label>
+        <input type="checkbox"><br>
+        <label>Cuento con elementos de higiene para la mascota</label>
+        <input type="checkbox"><br>
+        <p>En caso de no contar con alguno, sugerimos consultar el siguiente <a
+                href="https://www.petco.com.mx/petco/en/" target="_blank">link</a> para conseguir lo necesario</p>
+        <label>Acepto los términos y condiciones</label>
+        <input type="checkbox" required><br>
+        <input type="submit" value="Enviar mis datos">
+
+
+
+
+    </form>
+    <br><br>
+    <a href="./index.html">Regresar a la página de inicio</a>
+
+</body>
+
+</html>
